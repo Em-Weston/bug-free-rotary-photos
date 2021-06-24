@@ -71,3 +71,20 @@ img {
 	padding: 10px;
 	border: 1px solid red;
 	}
+
+.buttonContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	border: 1px solid blue;
+	padding: 10px;
+}
+button {
+	font-size: 1.2rem;
+}
+button:hover {
+	background-color: hsla(207, 44%, 49%, 0.5);
+}
+button:focus {
+	background-color: hsla(207, 44%, 49%, 0.5);
+}
